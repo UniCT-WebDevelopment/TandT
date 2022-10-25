@@ -1,0 +1,10 @@
+.feed{
+    flex: 3;
+   border: none;
+}
+.feedwarp{
+    padding: 0;
+}
+@media screen and (max-width: 600px){
+        
+}

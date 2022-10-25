@@ -1,0 +1,65 @@
+.conversation {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  cursor: pointer;
+  margin-top: 20px;
+  background-color: #031530;
+  border-radius: 10px;
+  color: #ccb177;
+  border: solid 2px #ccb177;
+}
+
+.conversation:hover {
+  background-color: rgb(231, 220, 199);
+}
+
+.conversationImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.conversationName {
+  font-weight: 500;
+}
+
+.prova123 {
+  position: absolute;
+  left: 24vw;
+  top: 72px;
+  width: 15vw;
+  height: 30px;
+  background-color: #031530;
+  margin-left: 10px;
+  margin-top: 1px;
+  border-radius: 15px;
+  padding-left: 15px;
+}
+
+@media screen and (max-width: 600px) {
+  .conversationImg {
+    display: none;
+  }
+
+  .noCoversationText {
+    font-size: 15px;
+  }
+
+  .prova123 {
+    position: absolute;
+    left: 24.5vw;
+    top: 50px;
+    width: 15vw;
+    height: 30px;
+    background-color: #031530;
+    margin-left: 10px;
+    border-radius: 15px;
+    padding-left: 15px;
+    margin-bottom: 5px;
+  }
+
+}

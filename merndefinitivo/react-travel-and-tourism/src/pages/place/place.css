@@ -1,0 +1,15 @@
+.containerPlace{
+    background-color: #eadeca;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+@media screen and (max-width: 600px){
+    .containerPlace{
+        padding-left: 0;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+}

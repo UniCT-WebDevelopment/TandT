@@ -1,0 +1,89 @@
+html{
+    background-color: rgb(231,220,199);
+}
+.Containerhome{
+    display: flex;
+    width: 100%;
+    background: rgb(231,220,199);
+
+}
+.iconsmartphone{
+    display: none;
+}
+.iconsmartphonePad{
+    display: none;
+}
+@media screen and (max-width: 1300px  ){
+    .iconsmartphone{
+        display: none;
+    }
+    .iconsmartphonePad{
+        display: inline-block;
+        height: 5vh;
+        width: 5vh;
+        margin-right: 15px;
+        color: #033544 ;
+    }.containerIconeSmartph{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .rightbar {
+        display: none;
+    }
+    .feed{
+        flex : 2;
+        margin-top: -10px;
+    }
+    .sidebar{
+        flex: 0.8;
+    }
+}
+@media screen and (max-width: 600px){
+    .feed{
+        flex: 1;
+        
+    }
+    .sidebar{
+        display: none;
+    }
+    .rightbar{
+        display: none;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .share{
+        width: 90vw;
+    }
+    .option{
+        display: none;
+    }
+    .post{
+        width: 90vw;
+    }
+    .containerIconeSmartph{
+        width: 100vw;
+        background: rgb(231,220,199);
+        
+        
+    }
+    .csPad{
+        display: none;
+    }
+    .csm{   
+        width: 100vw;
+        display: flex;
+        justify-content: space-around;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .iconsmartphone{
+        margin-left: 15px;
+        height: 5vh;
+        width: 5vh;
+        display: inline-block;
+        color: #033544 ;
+    }
+    .iconsmartphonePad{
+        display: none;
+    }
+}

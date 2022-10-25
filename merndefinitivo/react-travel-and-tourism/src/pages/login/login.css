@@ -1,0 +1,429 @@
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        background: rgb(204, 177, 119);
+        background: linear-gradient(0deg, rgba(204, 177, 119, 1) 25%, rgba(231, 220, 199, 1) 45%, rgba(193, 222, 238, 1) 77%);
+    }
+
+    .login {
+        width: 100vw;
+        height: 69.55vh;
+
+        display: flex;
+
+        justify-content: center;
+    }
+
+    .loginWrapper {
+        width: 75%;
+        height: 75%;
+        display: flex;
+        gap: 20px;
+
+    }
+
+    .loginLeft {
+        flex: 5;
+        display: flex;
+        flex-direction: column;
+        height: 80vh;
+        width: 100%;
+
+    }
+
+    .loginRight {
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .Loginlogo {
+
+        font-size: 25px;
+        font-weight: 1000;
+        color: #033544;
+        z-index: 2;
+        position: absolute;
+        top: 5vh;
+        left: 50px;
+    }
+
+    .logindesc {
+        color: #031530;
+        font-weight: 500;
+        font-size: 22px;
+        margin-left: 5px;
+        position: absolute;
+        top: 10vh;
+        left: 50px;
+        z-index: 2;
+
+    }
+
+    .loginBox {
+        height: 300px;
+        padding: 20px;
+        background: #033544;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+
+    }
+
+    .loginInputEmail {
+        height: 40px;
+        border-radius: 10px;
+        border: 3px solid #ccb177;
+        font-size: 18px;
+        padding-left: 20px;
+        outline: none;
+        background: rgb(204, 177, 119);
+        background: linear-gradient(297deg, rgba(204, 177, 119, 1) 0%, rgba(231, 220, 199, 1) 35%, rgba(231, 220, 199, 1) 100%);
+        color: #033544;
+    }
+
+    .loginInputPass {
+        height: 40px;
+        border-radius: 10px;
+        border: 3px solid #ccb177;
+        font-size: 18px;
+        padding-left: 20px;
+        outline: none;
+        background: rgb(204, 177, 119);
+        background: linear-gradient(297deg, rgba(204, 177, 119, 1) 0%, rgba(231, 220, 199, 1) 35%, rgba(231, 220, 199, 1) 100%);
+        color: #033544;
+        font-style: bold;
+
+    }
+
+    .loginButton {
+        height: 40px;
+        border-radius: 10px;
+        border: none;
+        background-color: #ccb177;
+        color: #031530;
+        font-size: 20px;
+        font-weight: 500;
+        cursor: pointer;
+        align-self: flex-start;
+        width: 40%;
+
+    }
+
+    .loginButton:focus {
+        outline: none;
+    }
+
+    .loginForgot {
+        text-align: center;
+        color: #ccb177;
+        cursor: pointer;
+    }
+
+    .loginregistrerButton {
+        height: 40px;
+        border-radius: 10px;
+        border: none;
+        background-color: #ccb177;
+        color: #031530;
+        font-size: 18px;
+        font-weight: 500;
+        cursor: pointer;
+        width: 60%;
+        align-self: flex-end;
+        text-decoration: none;
+
+    }
+
+    .containerPh {
+        margin-top: 20px;
+        position: relative;
+        width: 90%;
+
+        height: 60vh;
+        border-radius: 15px;
+        border: solid 2px #031530;
+    }
+
+    .imgcontainerPh {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        animation: cycle 10s linear infinite 0s forwards;
+        animation-play-state: paused;
+        background-color: #031530;
+        border-radius: 15px;
+    }
+
+    .containerPh:hover .imgcontainerPh {
+        animation-play-state: running;
+    }
+
+    .imgcontainerPh-1 {
+        z-index: 11;
+    }
+
+    .imgcontainerPh-2 {
+        z-index: 10;
+        animation-delay: 1s;
+    }
+
+    .imgcontainerPh-3 {
+        z-index: 9;
+        animation-delay: 2s;
+    }
+
+    .imgcontainerPh-4 {
+        z-index: 8;
+        animation-delay: 3s;
+    }
+
+    .imgcontainerPh-5 {
+        z-index: 7;
+        animation-delay: 4s;
+    }
+
+    .imgcontainerPh-6 {
+        z-index: 6;
+        animation-delay: 5s;
+    }
+
+    .imgcontainerPh-7 {
+        z-index: 5;
+        animation-delay: 6s;
+    }
+
+    .imgcontainerPh-8 {
+        z-index: 4;
+        animation-delay: 7s;
+    }
+
+    .imgcontainerPh-9 {
+        z-index: 3;
+        animation-delay: 8s;
+    }
+
+    .imgcontainerPh-10 {
+        z-index: 2;
+        animation-delay: 9s;
+    }
+
+    @keyframes cycle {
+        from {
+            visibility: visible;
+            z-index: 12;
+        }
+
+        to {
+            visibility: hidden;
+            z-index: -1;
+        }
+    }
+
+    .animation {
+        position: relative;
+        width: 100%;
+        height: 12vh;
+        margin-top: 1vh;
+        background: rgb(3, 53, 68);
+        background: linear-gradient(0deg, rgba(3, 53, 68, 1) 0%, rgba(3, 99, 93, 1) 16%, rgba(231, 220, 199, 1) 31%, rgba(204, 177, 119, 1) 34%, rgba(204, 177, 119, 1) 89%);
+    }
+
+    .boat {
+        height: 11vh;
+        width: 11vh;
+        cursor: pointer;
+        transition: transform 4s ease-in-out, opacity 4s ease-in-out;
+    }
+
+    .move {
+        transform: translateX(1500px);
+        opacity: 0;
+    }
+
+    .nuvole {
+        width: 100%;
+        height: 17vh;
+        z-index: 1;
+        position: relative;
+        bottom: -75px;
+        top: 0;
+        background-position: 0px 0px;
+        background-repeat: repeat-x;
+        animation: animazionebg 40s linear infinite;
+        /* Safari and Chrome */
+        animation: animazionebg 40s linear infinite;
+    }
+
+    @keyframes animazionebg {
+        from {
+            background-position: 5px 100px;
+        }
+
+        to {
+            background-position: 100% 0;
+        }
+    }
+
+
+@media screen and (min-width: 992px) {
+   
+    
+    
+}
+@media screen and (max-width: 600px) {
+    .container {
+        height: calc(100vh - 30px);
+        display: flex;
+        flex-direction: column;
+        background: rgb(204, 177, 119);
+        background: linear-gradient(0deg, rgba(204, 177, 119, 1) 25%, rgba(231, 220, 199, 1) 45%, rgba(193, 222, 238, 1) 77%);
+        padding: 15px;
+    }
+
+    .loginLeft {
+        display: none;
+
+    }
+
+    .loginRight {
+        height: 100%;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .nuvole {
+        display: none;
+    }
+
+    @keyframes animazionebg {
+        from {
+            background-position: 5px 100px;
+        }
+
+        to {
+            background-position: 100% 0;
+        }
+    }
+
+    .loginBox {
+        height: 80vh;
+        width: 90vw;
+        padding: 10px;
+        margin: 10px;
+        background: linear-gradient(90deg, #031530 0%, #033544 35%, #03635d 100%);
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+
+    }
+
+    .boat {
+        display: none;
+    }
+    .animation{
+        display: none;
+    }
+    .logindesc {
+
+        top: -15px;
+        left: -15px;
+    }
+
+    .containertitle {
+        height: 100px;
+    }
+
+    .loginBox {
+        height: 60vh;
+        width: 80vw;
+        padding: 20px;
+        justify-content: space-around;
+        gap: 8px;
+        margin-bottom: 6vh;
+    }
+
+    .loginInputEmail {
+        height: 6vh;
+        border: solid 2px #ccb177;
+        outline: none;
+        border-radius: 10px;
+        padding-left: 10px;
+        background: rgb(204, 177, 119);
+        background: linear-gradient(297deg, rgba(204, 177, 119, 1) 0%, rgba(231, 220, 199, 1) 35%, rgba(231, 220, 199, 1) 100%);
+        color: #033544;
+        font-size: 17px;
+    }
+
+    .loginInputPass {
+        height: 6vh;
+        border: solid 2px #ccb177;
+        outline: none;
+        border-radius: 10px;
+        padding-left: 10px;
+        background: rgb(204, 177, 119);
+        background: linear-gradient(297deg, rgba(204, 177, 119, 1) 0%, rgba(231, 220, 199, 1) 35%, rgba(231, 220, 199, 1) 100%);
+        color: #033544;
+        font-size: 17px;
+    }
+
+    .loginButton {
+        width: 20%;
+        font-size: 15px;
+        padding: 3px;
+        background-color: #ccb177;
+        color: #031530;
+        border: none;
+        border-radius: 10px;
+        height: 6vh;
+    }
+
+    .loginButton:hover {
+        border: solid 2px #e5e4e0;
+
+    }
+
+    .loginregistrerButton {
+        height: 6vh;
+        width: 50vw;
+        font-size: 16px;
+        padding: 3px;
+        background-color: #ccb177;
+        color: #031530;
+        border: none;
+        border-radius: 10px;
+    }
+
+    .loginregistrerButton:hover {
+        border: solid 2px #e5e4e0;
+        
+    }
+    .Loginlogo{
+        font-size: 16px;
+    }
+    .logindesc{
+        position: absolute;
+        top: 10vh;
+        left: 2vw;
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .login{
+        height: 80vh;
+        width: 70vw;
+        margin: 0;
+        padding: 0;
+        justify-content: flex-start;
+    }
+    
+}

@@ -1,0 +1,184 @@
+.topbarContainer {
+    height: 72px;
+    width: 99.9%;
+    background: rgb(3, 21, 48);
+    background: linear-gradient(194deg, rgba(3, 21, 48, 1) 0%, rgba(3, 53, 68, 1) 75%, rgba(3, 53, 68, 1) 100%);
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.imglogo {
+    height: 68px;
+    width: 68px;
+    object-fit: contain;
+    margin-left: 10px;
+
+
+}
+
+.topbarLeft {
+    flex: 2;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    color: #ccb177;
+    line-height: 50%;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-right: 10px;
+    font-size: 32px;
+}
+
+.topbarCenter {
+    flex: 6;
+}
+
+.searchbar {
+    width: 85%;
+    height: 38px;
+    border-radius: 20px;
+    background-color: #e7dcc7;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+
+.searchbar:hover {
+    scale: 1.05;
+}
+
+.searchIcons {
+    font-size: 20px;
+    color: #033544;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.searchInput {
+    display: flex;
+    justify-content: flex-start;
+    color: #033544;
+    background-color: #e7dcc7;
+    border: none;
+    outline: none;
+    width: 60%;
+    font-size: 20px !important;
+    margin-left: 10px;
+}
+
+.topbarRight {
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #ccb177;
+}
+
+.topbarLinks {
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+.Linkst {
+    padding-bottom: 4px;
+}
+
+.Linkst:hover {
+    border-bottom: solid 2px #ccb177;
+
+}
+
+.topLinks {
+    margin-right: 10px;
+    margin-left: 10px;
+    color: #ccb177;
+}
+
+.topbarIcons {
+    display: flex;
+}
+
+.topbarIconItem {
+    margin-right: 10px;
+    cursor: pointer;
+    position: relative;
+    color: #ccb177;
+}
+
+.topbarIconBadge {
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    color: #e7dcc7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+}
+
+.topBarImg {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+    margin-right: 10px;
+    border: solid 2px #ccb177;
+}
+
+@media screen and (max-width: 600px) {
+    .topbarContainer {
+        height: 50px;
+
+    }
+
+    .imglogo {
+        height: 40px;
+        width: 40px;
+
+
+
+    }
+
+    .searchbar {
+        height: 6vh;
+    }
+
+    .topbarLeft {
+        flex: 2;
+        display: flex;
+        align-items: center;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .topbarCenter {
+        flex: 6;
+    }
+
+    .Linkst {
+        font-size: 14px;
+    }
+
+    .searchbar {
+        margin-left: 0;
+    }
+
+    .searchInput {
+        font-size: 14px;
+        height: 5vh;
+    }
+}
